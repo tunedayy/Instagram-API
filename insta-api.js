@@ -25,8 +25,8 @@ function fetchPosts(posts){
             <h4 id="username">${post.username}</h4>
         </div>
         <img id="img" src=${post.media_url} alt="">
-    <p id="caption"><span>${post.username}</span>${post.caption}</p>
-    </div>`;
+        <p id="caption"><span>${post.username}</span>${post.caption}</p>
+        </div>`;
 
     })
 
