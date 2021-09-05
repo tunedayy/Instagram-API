@@ -2,6 +2,9 @@
 
 This is a practice project with instagram API, this simple code gets and displays user media using the instagram graph API.
 
+# DEMO
+https://insta-api.netlify.app/
+
 # Files included:
 <ul>
 <li>index.html - displays the data gotten from Instagram.</li>
