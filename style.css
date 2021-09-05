@@ -1,50 +1,64 @@
-@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Cookie&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 body {
-    font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 p {
-    font-weight: 300;
-    font-size: 0.75rem;
-    padding: 0px 15px;
+  font-weight: 300;
+  font-size: 0.75rem;
+  padding: 0px 15px;
 }
 .header {
-    border-top: 1px solid #f3f3f3;
+  border-top: 1px solid #f3f3f3;
 }
 .thumbnail {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    float: left;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  float: left;
 }
 h1 {
-    text-align: center;
-    font-family: 'Cookie', cursive;
+  text-align: center;
+  font-family: "Cookie", cursive;
 }
 h4 {
-    color: #4caf50;
-    font-size: 0.8rem;
-    margin: 0;
-    padding: 15px;
-    float: left;
+  color: #4caf50;
+  font-size: 0.8rem;
+  margin: 0;
+  padding: 15px;
+  float: left;
 }
 span {
-    color: #4caf50;
-    font-size: 0.75rem;
-    font-weight: bold;
-    padding-right: 5px;
-    float: left;
-    line-height: 20px;
+  color: #4caf50;
+  font-size: 0.75rem;
+  font-weight: bold;
+  padding-right: 5px;
+  float: left;
+  line-height: 20px;
 }
 #img {
-    max-width: 500px;
-    width: 100%;
+  max-width: 500px;
+  width: 100%;
+}
+.form {
+  text-align: center;
+  margin: 1em;
+}
+#token {
+  padding: 10px;
+}
+.btn {
+  background: #4caf50;
+  padding: 10px;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
 }
 .content {
-    margin-bottom: 4em;
+  margin-bottom: 4em;
 }
 .container {
-    border: 1px solid #f3f3f3;
-    max-width: 500px;
-    margin: auto;
+  border: 1px solid #f3f3f3;
+  max-width: 500px;
+  margin: auto;
 }
